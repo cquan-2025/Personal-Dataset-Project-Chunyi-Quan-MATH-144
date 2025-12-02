@@ -19,3 +19,15 @@ To rank the availability of seats, I first get the top 20 airlines with descendi
 
 <img width="1222" height="755" alt="image" src="https://github.com/user-attachments/assets/f02374bc-0c45-4997-bf2e-b615f68722ae" />
 
+2. Relationship between airline incidents and fatalities
+
+When evaluating the safety of airlines, we can make a plot showing the relationship between airline incidents and fatalities. It shows that there is a positive linear relationship between the two variables, indicating that the total incidents is positively correlated with total fatilities.
+<img width="1222" height="755" alt="image" src="https://github.com/user-attachments/assets/58698cfe-e1cd-4126-b50b-dd3858adb609" />
+
+To make it more specific, we labeled each dot with its corresponding airline companies and used the size of the dots to measure the total number of fatal accidents. In this plot, the bigger the dot is, the more total fatal accidents there are. As we can see, there are some significant outliers, such as China Airlines. It has a low number of total incidents, but a very high (in fact, the highest value in the entire dataset) total fatality. This indicates that some very severe air incidents caused the death of a lot of people in China Airlines' history.
+
+<img width="1222" height="755" alt="image" src="https://github.com/user-attachments/assets/61078fae-9ed8-43da-9294-df9a3a255ac3" />
+
+Short Conclusion
+
+Overall, we can use this dataset to evaluate the relative safety of the dominating airlines in the world. However, limitations still exist. One thing that is noteworthy is that all the airlines included are Full-service airlines, which only make up part of the airline industry. There are also Low-cost carriers and private jets that meet different demands from the customers. Therefore, using this dataset is unable to lead to a comprehensive conclusion. On the other hand, the latest data from this dataset is from 2014, which is almost 12 years ago from today. This could potentially mean that we will fail to make predictions for times after 2014. Also, there are many emerging airlines that are not included, such as Starlux Airlines from Taiwan (founded in 2018).
